@@ -1,0 +1,12 @@
+@import url(./home/home-header.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background: #C2B7B4;
+    padding: 20px;
+}

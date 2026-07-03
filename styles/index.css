@@ -1,4 +1,5 @@
 @import url(./home/home-header.css);
+@import url(./home/home-main.css);
 
 * {
     margin: 0;

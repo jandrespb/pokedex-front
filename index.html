@@ -81,24 +81,19 @@
                 <div class="contenedor-pokedex">
                     <div class="luz-pokedex"></div>
                     <div class="pantalla-pokedex">
-                        <ul>
-                            <li><span>01</span> bulbasaur</li>
-                            <li><span>01</span> ivysaur</li>
-                            <li><span>01</span> venusaur</li>
-                            <li><span>01</span> venusaur</li>
-                        </ul>
+                        <ul></ul>
                     </div>
                     <div class="botones-pokedex">
                         <div class="encendido-pokedex">
-                            <button class="boton-pokedex">On</button>
-                            <button class="boton-pokedex">Off</button>
+                            <button class="boton-pokedex" data-action="on">On</button>
+                            <button class="boton-pokedex" data-action="off">Off</button>
                         </div>
                         <div class="d-pad">
-                            <div class="brazo arriba"></div>
-                            <div class="brazo izquierda"></div>
+                            <div class="brazo arriba" data-action="up"></div>
+                            <div class="brazo izquierda" data-action="left"></div>
                             <div class="centro"></div>
-                            <div class="brazo derecha"></div>
-                            <div class="brazo abajo"></div>
+                            <div class="brazo derecha" data-action="right"></div>
+                            <div class="brazo abajo" data-action="down"></div>
                         </div>
                     </div>
                 </div>
@@ -110,6 +105,7 @@
             </div>
         </footer>
     </div>
+    <script src="./js/pokedex.js" defer></script>
 </body>
 
 </html>

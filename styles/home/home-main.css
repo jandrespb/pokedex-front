@@ -162,9 +162,15 @@ main {
 
             .pantalla-pokedex {
                 background: #111;
+                flex: 1;
+                min-height: 0;
+                overflow: hidden;
+
                 ul {
                     margin: 0;
                     padding: 0;
+                    height: 100%;
+                    overflow-y: auto;
                     /* box-shadow: 0 15px 40px rgba(0, 0, 0, 1); */
 
                     li {
@@ -222,6 +228,31 @@ main {
                             transform: scaleY(1);
                             transition: transform 0.3s;
                             transform-origin: top;
+                        }
+
+                        &.activo {
+                            color: #000;
+
+                            &::before {
+                                transform: scaleY(1);
+                                transform-origin: top;
+                            }
+
+                            &::after {
+                                transform: scaleY(1);
+                                transform-origin: top;
+                            }
+                        }
+
+                        &.mensaje-bienvenida {
+                            cursor: default;
+                            text-align: center;
+                            color: #3fff00;
+
+                            &::before,
+                            &::after {
+                                display: none;
+                            }
                         }
                     }
 

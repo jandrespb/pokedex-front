@@ -145,8 +145,10 @@ main {
 
         .contenedor-pokedex {
             background: #6886E3;
-            width: 250px;
-            height: 500px;
+            /* width: 300px; */
+            width: 27vw;
+            /* height: 500px; */
+            height: 85vh;
             border-radius: 10px;
             padding: 20px;
             display: flex;
@@ -158,6 +160,7 @@ main {
                 height: 50px;
                 border-radius: 50%;
                 background: #fff;
+                border: 7px solid #000;
             }
 
             .pantalla-pokedex {
@@ -261,14 +264,17 @@ main {
             }
 
             .botones-pokedex {
-                border: 1px solid #000;
+                border: 2px solid #000;
+                border-radius: 10px;
+                padding: 10px;
+                width: 100%;
 
                 .encendido-pokedex {
 
                     .boton-pokedex {
                         border: 2px solid #000;
-                        width: 40px;
-                        height: 40px;
+                        width: 60px;
+                        height: 60px;
                         border-radius: 50%;
                         background: #ab3cc1;
                     }

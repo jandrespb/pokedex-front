@@ -8,7 +8,7 @@
 }
 
 .contenedor {
-    background: #C2B7B4;
+    background: linear-gradient(to left, #dd1818, #333333);
     padding: 20px;
     /* max-width: 1200px; */
 }

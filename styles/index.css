@@ -9,9 +9,6 @@
 }
 
 .contenedor {
-    /* background: linear-gradient(to left, #dd1818, #333333); */
-    /* background: linear-gradient(to top, #000000, #152331); */
     background: linear-gradient(to right, #ef473a, #cb2d3e);
     padding: 20px;
-    /* max-width: 1200px; */
 }

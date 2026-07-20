@@ -1,5 +1,5 @@
 const API_BASE_URL = 'http://localhost:8080/pokemon';
-const MAX_PAGE = 10;
+const MAX_PAGE = 37;
 
 let encendida = false;
 let paginaActual = 0;

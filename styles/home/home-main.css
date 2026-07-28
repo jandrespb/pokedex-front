@@ -412,4 +412,67 @@ main {
             }
         }
     }
+
+    .buscador-pokemon {
+        /* background: #1e6fff; */
+        padding: 10px;
+
+        input {
+            background: #000;
+            width: 350px;
+            height: 40px;
+            border: 2px solid #454545;
+            border-radius: 5px;
+            padding: 5px;
+            color: #3fff00;
+            font-size: 17px;
+
+            &::placeholder {
+                color: #CFCFCF;
+                font-size: 0.7em;
+            }
+        }
+
+        .boton-buscador {
+
+            background: #F2C94C;
+            border: 2px solid #211F1F;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-left: 20px;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+            color: #211F1F;
+            cursor: pointer;
+
+             &:hover {
+                background: #FAF5F5;
+                color: #211F1F;
+                transform: scale(1.1);
+                transition: 0.3s ease-in-out;
+            }
+        }
+
+        .boton-limpiar {
+
+            background: #3A60AC;
+            border: 2px solid #211F1F;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-left: 10px;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+            color: #fff;
+            cursor: pointer;
+
+             &:hover {
+                background: #F05959;
+                color: #FAF5F5;
+                transform: scale(1.1);
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
 }

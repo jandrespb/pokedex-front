@@ -5,8 +5,3 @@ Thumbs.db
 # Editores
 .vscode/
 .idea/
-
-# Carpetas proyecto
-img/
-fonts/
-data/

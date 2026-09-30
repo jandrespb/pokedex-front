@@ -4,12 +4,14 @@ Frontend web de una Pokédex desarrollado con **HTML, CSS y Vanilla JavaScript**
 El proyecto esta pensado para practicar **QA y automatizacion de pruebas** sobre
 una aplicacion web que consume una API REST.
 
+Repositorio: [github.com/jandrespb/pokedex-front](https://github.com/jandrespb/pokedex-front)
+
 > Importante: este frontend necesita el backend de la Pokédex para funcionar.
 > Debes descargarlo, configurarlo y ejecutarlo antes de abrir la aplicacion.
 
 ## Repositorios
 
-- Frontend: rama [`test-backend`](https://github.com/jandrespb/pokedex-front/tree/test-backend).
+- Frontend: [pokedex-front](https://github.com/jandrespb/pokedex-front).
 - Backend: [pokedex-back](https://github.com/jandrespb/pokedex-back)
 
 El backend expone los datos de Pokemon, tipos, poderes, debilidades y juegos.
@@ -38,13 +40,11 @@ para conocer los requisitos de Java, Maven y MySQL.
 Clona el frontend y el backend:
 
 ```bash
-git clone --branch test-backend https://github.com/jandrespb/pokedex-front.git
+git clone https://github.com/jandrespb/pokedex-front.git
 git clone https://github.com/jandrespb/pokedex-back.git
 ```
 
-Tambien puedes descargar el frontend desde la rama
-[`test-backend`](https://github.com/jandrespb/pokedex-front/archive/refs/heads/test-backend.zip)
-y el backend desde GitHub usando **Code > Download ZIP**.
+Tambien puedes descargar ambos proyectos desde GitHub usando **Code > Download ZIP**.
 
 ## Configurar y ejecutar el backend
 
